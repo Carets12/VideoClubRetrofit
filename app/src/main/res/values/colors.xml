@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fbuttonP">#00fff0</color>
+    <color name="fbuttonS">#a42f72b1</color>
+
+    <color name="fbuttonA">#ffcc00</color>
+    <color name="fbuttonSA">#a4b1882f</color>
+
+    <color name="fbuttonI">#00ff26</color>
+    <color name="fbuttonSI">#a822a131</color>
+
+    <color name="fbuttonB">#ff0000</color>
+    <color name="fbuttonSB">#a4b1312f</color>
+
+</resources>
+

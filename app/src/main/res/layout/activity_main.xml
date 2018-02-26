@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.daniel.sierra.videoclubretrofit.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="55dp"
+        android:textColor="#cd006b57"
+        android:background="#78d4d4d4"
+        android:textStyle="bold"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/fButtonInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/insertar_pelicula"
+        android:layout_centerVertical="true"
+        android:textSize="22sp"
+        android:theme="@style/MyButton"/>
+
+    <Button
+        android:id="@+id/fButtonListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fButtonInsertar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/listar_peliculas"
+        android:textSize="22sp"
+        android:theme="@style/MyButton"/>
+
+    <Button
+        android:id="@+id/fButtonBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fButtonInsertar"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/buscar_pelicula"
+        android:textSize="22sp"
+        android:theme="@style/MyButton"/>
+
+    <TextView
+        android:id="@+id/textAsig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/subtitulo"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/fButtonBuscar"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#91000000"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+

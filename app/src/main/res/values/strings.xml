@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">VideoclubRetrofit</string>
+    <string name="titulo">VideoClub S.R</string>
+
+    <string name="buscar_pelicula">Buscar Pelicula</string>
+    <string name="listar_peliculas">Listar Peliculas</string>
+    <string name="insertar_pelicula">Insertar Pelicula</string>
+    <string name="subtitulo">Programación de Servicios y Procesos</string>
+
+    <string name="crear_pelicula_post">Insertar Pelicula</string>
+    <string name="e_Codigo">Código</string>
+    <string name="e_Foto">Foto</string>
+    <string name="e_Titulo">Título</string>
+    <string name="e_Director">Director</string>
+    <string name="e_Precio">Precio</string>
+    <string name="e_Anio">Año</string>
+    <string name="e_Stock">Stock</string>
+    <string name="e_Descripcion">Descripción</string>
+    <string name="B_Crear_Pelicula">Añadir</string>
+    <string name="introduce_codigo">Introduce Código</string>
+    <string name="eb_Codigo">Código</string>
+    <string name="buttonBuscar">Buscar</string>
+
+</resources>
+
